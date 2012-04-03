@@ -1,5 +1,21 @@
-Discussion File.
+EvoSim Discussion File.
 
-Append to the end of the file:
-    80 columns of "=" followed by 2 newlines followed by your username 
-    followed by 2 newlines followed by your comment/response/question.
+Append to the file:
+    1. 2 (two) blank newlines
+    2. Your GitHub username and IRC nick
+    3. 2 blank newlines
+    4. Your comment/response/question/idea
+    5. 1 (one) blank newline
+    5. 80 (eighty) columns of "=" characters
+
+===============================================================================
+
+WooLooWoo | wlw
+
+Mulling over some game ideas. Greek mythology - play as Greek deities, e.g. Gaia, Pan, et al, controlling the direction and course of Life. Actions influence the players's abilities via some kind of experience/acheivement system, as in an RPG, as well as the player's character as in Fable and others. Gameplay would resemble in many ways that of Black & White, Sim Life, Sim Earth and other artificial life games. Needs work, we're not trying to clone an existing game.
+
+Also toying with some module-specific enhancements - non-biological (Supernatural/Immaterial, Digital/Silicon ["Siliceous"]) lifeforms as a class of Non-Cellular life (currently Viral is the only class of Non-Cellular life).
+
+I'm attempting to design the engine so as not to be limited in scope to existent biology in terms of genetic and cellular structure and mechanics and thus realizable upper-hierarchy taxa, i.e. so as not to limit the possible forms of life to those of the Three Domain System (Archaea, Bacteria, Eukarya) nor the Six-Kingdom System (Eubacteria, Archaebacteria, Protista, Fungi, Plantae, Animalia) nor the Two-Empire System (Prokaryota/Monera and Eukaryota).
+
+===============================================================================
