@@ -3,7 +3,7 @@ package evosim;
 import evosim.buildingblocks.genetic.Gene;
 import evosim.buildingblocks.genetic.Chromosome;
 import evosim.buildingblocks.types.*;
-import evosim.taxonomy.rank.Taxon;
+import evosim.taxonomy.taxon.Taxon;
 
 /**
  * @author WooLooWoo

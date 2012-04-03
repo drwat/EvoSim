@@ -1,19 +1,25 @@
 package evosim;
 
-import evosim.taxonomy.rank.Taxon;
-import evosim.taxonomy.rank.RankType;
+import evosim.genetics.VidiGenetics;
+import evosim.taxonomy.taxon.Species;
+import java.util.ArrayList;
 
 /**
+ * @param <_Species>
  * @author WooLooWoo
  */
 
-public class Organism {
-    public final Taxon taxon;
+public class Organism<_Species> {
     private java.awt.Point location;
-    private int age;
+    private final long birthDate;
+    public final Species species;
+    private final ArrayList<Organism<_Species>> parents;
+    private VidiGenetics genetics;
 
-    public Organism(Taxon taxon) {
-        this.taxon = taxon;
+    public Organism(Species species, ArrayList<Organism<_Species>> parents) {
+        this.species = species;
+        this.parents = parents;
+        this.birthDate = System.currentTimeMillis();
     }
 
 }
