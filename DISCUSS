@@ -25,3 +25,144 @@ Six-Kingdom System (Eubacteria, Archaebacteria, Protista, Fungi, Plantae,
 Animalia) nor the Two-Empire System (Prokaryota/Monera and Eukaryota).
 
 ===============================================================================
+
+
+drwat | DrWat
+
+I think it's important to set  objectives early on and think about what we want 
+the end result to be.
+
+If all the focus of this project is set on the coding, and we don't have a big
+picture, it will be very easy to lose focus and direction.
+
+I have built a game concept and dynamics concept, based on some things i talked
+with wlw. It's in it's very first stage, so give the idea room to breathe 
+before bashing it. That being said, i have no problem with my concept being 
+rejected completely or heavily modified. I'm just chipping in something i came
+up with that might be interesting.
+
+My idea is reaching a niche. A niche that needs attention and love. In 
+evolution sim games such as sim earth, sim life and spore there have been 
+horrible simplifications and terrible mechanisms of interaction.
+The niche i'm trying to reach is people that appreciate complex systems
+and watching them work, such as evolutionary paths and ecosystems.
+
+Anyway, here's the concept:
+
+This is a bird eye's view simulation game, very similar to sim-life/sim-earth,
+with some aspects of black and white. The key difference is the amount of 
+environmental and intercreature interactions that create a rich ecosystem. 
+The key aspect of the game is getting players to tweak and play with a very 
+complex ecosystem that reacts to disturbances and change in a logical, natural 
+way.
+
+In creative mode there are no goals. it's just a simulation that keeps running
+and running. You can introduce new creatures whenever you like, kill individual 
+creatures whenever you like, alter the terrain, or alter the resources 
+available.
+
+You are god. Creatures with certain amount of intelligence might worship, love 
+and/or fear you or even try to communicate with you.
+
+In survival mode you assume the role of a particular species in an ecosystem. 
+Your goal is that you or your direct descendants achieve biomass goals 
+(i.e.: total biomass=1kg, 10kg, 100kg, etc.).
+
+You have limited resources you can make available and limited interventions on 
+other creatures and the environment you can make. When achieving any biomass 
+goal, you gain more power to alter creatures' genomes/the environment/resources
+
+Other types of gameplay might be introduced to the engine later on.
+
+Rules/Dynamic:
+
+-An environment map with random resources, terrain, and climate is created.
+-A few random creatures with certain uses for resources, terrain preference, 
+climate preference and excretion of different resources are created.
+-Predators are introduced.
+-higher predators are introduced.
+-simbiotes are introduced
+-parasites are introduced
+
+You design creatures/a creature and 'set them free' in the environment.
+
+Your creature interacts with the resources, processing them and turning them 
+into excretions, and interacts with other creatures either ignoring them, 
+fighting them or collaborating. One possible result is using another animal as 
+a resouce for a prolonged period of time(parasitic behavior), another would be 
+killing it and using a lump sum of the animal as resources, or working together 
+with another animal to gather resources more effectively.
+
+Your creature may move and reach new areas.
+
+Your creature may not be able to move, and may reach new areas via reproduction
+or growth.
+
+Your creature's genetic traits present mutations with time. amount of time 
+required for change depends on the lifespan(function of size, speed, etc) of 
+your creature. Probability of mutation for a trait that's closer to its hard 
+upper or lower limit gets exponentially lower. Normal distribution, etc.
+
+Your creatures may fork and take different evolutionary paths.
+
+The amount of genetic traits that exist are hundreds, if not thousands. They 
+interact with eachother. Some traits are necessary to gain others. Some are 
+mutually exclusive. Some genetic traits are functions of other gentic traits.
+
+Example:
+
+macro-traits:
+   Max size: 1 pixel - 800x800 pixels
+   size at birth:
+   max strength:
+   min resource 1 consumption required:
+   min resource 2 consumption required:
+   (...)
+   excretion type 1: 
+   excretion type 2:
+   excretion type 3:
+   (...)
+   max temp:
+   min temp:
+   resource 1 excreted when dead: i.e. meat type 2
+   resource 2 excreted when dead: i.e. skin.
+   
+sexual traits:
+   Type of reproduction: sexual-asexual
+   max distance between mates required for mating:
+   avg amount of spawns per litter:
+   Std dev of spawns per litter:
+   Time between litters:
+   internal incubation period:
+   external incubation period:
+   etc.
+   
+Irritability traits:
+   eyesight resolution: 0-1000km
+   field of view x axis: 0-360
+   smell effectivity distance: 0-100000 km.
+   electromagnetic perception: 0-100%
+   heat detection: 0-100%
+   
+physical traits:
+   max speed as function of terrain, temperature, age, size, limbs and health: 
+   (bodylengths per second)
+   avg speed as function of terrain, temperature, age and health:
+   % of body covered by exoskeleton: 0-100%
+   % of body with endoskeleton: 0-100%
+   size.
+
+Camouflage traits
+   (...)
+   
+Mental traits
+ (...)
+ 
+You get the idea. I expect feedback, be it positive or negative.
+<3, DrWat
+
+===============================================================================
+
+
+
+
